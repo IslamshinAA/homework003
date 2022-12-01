@@ -81,7 +81,7 @@ while i < num:
     num -= 1
     fib_list.append(f1)
 print(fib_list)
-fib1_list = []
+fib1_list = [0]
 for i in fib_list:
     i = i * (-1)
     if i < 0:
